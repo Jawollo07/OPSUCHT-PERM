@@ -1,0 +1,4 @@
+name: bukkit
+version: '1.0-SNAPSHOT'
+main: net.opsucht.bukkit.Bukkit
+api-version: '1.21'
