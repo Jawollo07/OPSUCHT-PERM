@@ -1,0 +1,20 @@
+Modul bukkit:
+    PermissionProvider:
+        LuckPerms:
+            player-has-permission fertig
+            addpermission fertig
+            removepermission fertig
+            get-player-groups fertig
+            get-all-groups 
+        GroupManager:
+            player-has-permission 
+            addpermission 
+            removepermission 
+            get-player-groups 
+            get-all-groups
+        PermissionsEx:
+            player-has-permission 
+            addpermission 
+            removepermission 
+            get-player-groups 
+            get-all-groups

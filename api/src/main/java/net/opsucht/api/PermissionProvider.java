@@ -1,4 +1,4 @@
-package net.opsucht.permission.api;
+package net.opsucht.api;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -12,7 +12,8 @@ import java.util.UUID;
  * - PermissionsEx
  * <p>
  * Instance can be accessed by {@link Permission#get()},
- * when one of the above plugins is available and {@link Permission#isInitialized()} is true
+ * when one of the above plugins is available and
+ * {@link Permission#isInitialized()} is true
  */
 public interface PermissionProvider {
 
@@ -21,7 +22,8 @@ public interface PermissionProvider {
      *
      * @return provider name
      */
-    @NotNull String getProviderName();
+    @NotNull
+    String getProviderName();
 
     /**
      * Check if player by {@link UUID} has permission
@@ -58,12 +60,14 @@ public interface PermissionProvider {
      * @return player groups
      * @throws NullPointerException if uuid is null
      */
-    @NotNull Set<String> getGroups(@NotNull UUID uuid);
+    @NotNull
+    Set<String> getGroups(@NotNull UUID uuid);
 
     /**
      * Get all available groups
      *
      * @return all groups
      */
-    @NotNull Set<String> getGroups();
+    @NotNull
+    Set<String> getGroups();
 }

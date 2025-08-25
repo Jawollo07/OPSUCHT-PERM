@@ -1,4 +1,4 @@
-package net.opsucht.permission.api;
+package net.opsucht.api;
 
 import org.jetbrains.annotations.ApiStatus;
 import org.jetbrains.annotations.NotNull;
